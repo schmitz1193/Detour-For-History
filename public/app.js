@@ -1,8 +1,11 @@
 
 console.log("made to app.js");
 document.getElementById("submitCoords").addEventListener("click", function(){
-var longitude = document.getElementById("long");
-console.log("longitude ", longitude);
 
-var latitude = document.getElementById("lat");
+  console.log("show coords??");
+// var longitude = document.getElementById("long").val;
+// console.log("longitude ", longitude);
+
+// var latitude = document.getElementById("lat");
+
 });
