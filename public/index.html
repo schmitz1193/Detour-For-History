@@ -14,12 +14,12 @@
     <h2>Where you can learn all about Nashville historical markers without having to pullover!</h2>
     <h3>Enter Coordinates</h3>
     <form>
-      <label for="longitude">Enter longitude</label>
-      <input type="number" name="longitude" min="-99" max="-00" step=".00001" placeholder="-00.00000">
+      <label id="long" for="longitude">Enter longitude</label>
+      <input id="lat" type="number" name="longitude" min="-99" max="-00" step=".00001" placeholder="-00.00000">
       <label for="longitude">Enter latitude</label>
       <input type="number" name="latitude" min="00" max="99" step=".00001" placeholder="00.00000">
       <br/>
-      <input type="submit" value="SUBMIT"></input>
+      <input id="submitCoords" type="submit" value="SUBMIT"></input>
     </form>
 
     <div id="markerText">This is where the JS will put the marker text from the database</div>
@@ -28,7 +28,7 @@
 
 
 
-
+    <script src="app.js"></script>
   </body>
 
 </html>
