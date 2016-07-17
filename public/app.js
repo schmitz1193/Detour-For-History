@@ -1,19 +1,20 @@
+var longitude = '';
+var latitude = '';
 
 document.getElementById("submitCoords").addEventListener("click", function(){
-  alert("show coords??");
-var longitude = document.getElementById("long").value;
+longitude = document.getElementById("long").value;
 console.log("longitude ", longitude);
-alert("show long" + longitude);
 
-var latitude = document.getElementById("lat").value;
-// values are showing in url but the following two lines are not working!!??
-alert("show lat" + latitude);
+latitude = document.getElementById("lat").value;
 console.log("latitude ", latitude);
+  // alert("show coords??");
+  console.log("send these coords to API");
+  console.log(longitude + " " + latitude);
 
 
 });
 
-// console.log("What is happening?");
+console.log("What is happening?");
 
 
 // document.getElementById("markerText").innerHTML = Text;
