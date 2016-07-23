@@ -19,6 +19,13 @@ document.getElementById("submitCoords").addEventListener("click", function(){
 
 console.log("What is happening?");
 
+// window.addeventlistener("haschange", function() {
+//   if (window.location.hash === "#/map/1") {
+//      document.getElementById("markerText").innerHTML = "this is the info";
+
+//   }
+// });
+
 
 // document.getElementById("markerText").innerHTML = Text;
 
