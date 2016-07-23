@@ -1,6 +1,8 @@
 var longitude = '';
 var latitude = '';
 
+// document.getElementById("submitCoords").addEventListener("event") {} );
+
 document.getElementById("submitCoords").addEventListener("click", function(){
   longitude = document.getElementById("long").value;
   console.log("longitude ", longitude);
